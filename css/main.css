@@ -5,7 +5,6 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: 'Raleway', sans-serif;
 }
 
 *:before,
@@ -21,6 +20,7 @@ body {
   font-size: 16px;
   line-height: 1.71429;
   background-color: #fff;
+  font-family: 'Raleway', sans-serif;
 }
 
 img {
@@ -102,6 +102,12 @@ header{
   display: inline-block;
   width: 30%;
   margin-top: 63px;
+
+}
+
+
+.col-4 img{
+  cursor: pointer;  
 }
 
 .text-services{
@@ -119,17 +125,104 @@ footer{
 
 
 
+/* Ejercio Evaluado*/
+
+.work-texto{
+  text-align: center;
+}
+
+.n-producto{
+  text-align: center;
+  font-weight: 300;
+}
+
+
+#img-proyecto-model{
+  background-color: rgba(240,30,80,0.85); 
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 
 
 
 
 
+/* MODAL services */
+#box-service-modal{
+  background-color: rgba(240,30,80,0.85);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#box-service-modal .model-body{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px;
+}
+
+#box-service-modal #model-body h5, 
+#box-service-modal #model-body h6{
+  color: whitesmoke;
+}
+
+#box-service-modal #model-body h5{
+  font-size: 2em;
+}
+
+#box-service-modal #model-body h6{
+  font-size: 1em;
+}
+
+#box-service-modal .close{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+#box-service-modal .close img{
+  width: 60px;
+}
+
+.hide{
+  display: none;
+}
 
 
 
 
+/* MODAL services */
+#img-proyecto-modal{
+  background-color: rgba(45,206,175,0.85); 
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 
+.modal-completo{
+  width: 600px;
+  height: 500px;
+  background-color: white; 
+  position: absolute;
+  top: 12%;
+  left: 25%;
+  padding: 10px;
+}
 
-
-
-
+.close-img{
+  color: rgb(45,206,175); 
+  position: absolute;
+  right: 30%;
+  top: 15%;
+  font-size: 25px;
+  cursor: pointer;
+}
